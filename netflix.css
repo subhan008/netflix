@@ -1,0 +1,555 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+.root{
+    background-size: cover;
+    background-position: center;
+   background-image: radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)),url(./IN-en-20220523-popsignuptwoweeks-perspective_alpha_website_large\ \(2\).jpg);
+    height: 47rem;
+
+}
+.Logo{
+    width:172px;
+    
+    margin-left: 52px;
+    margin-top: 23px;
+    height: 44px;
+    -webkit-font-smoothing: antialiased;
+    
+}   
+
+.navbar{
+    
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.banner{
+    width: 100%;
+    height: 1000px;
+}
+
+.main-container{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+flex-direction: column;
+}
+.signup-up{
+   color: aliceblue;
+    background-color:red;
+   position: absolute;
+    padding-top: 6px;
+    padding-bottom: 7px;
+    width: fit-content;
+    right: 20px;
+   margin-top: 26px;
+  font-size: 17px;
+  padding-left: 17px;
+  padding-right: 16px;
+  border-radius: 4px;
+  margin-right: 34px;
+
+}
+.language{
+    background-color:rgba(0,0,0,.4);
+   position: absolute;
+    padding-top: 6px;
+    padding-bottom: 7px;
+  right: 20px;
+  margin-top: 26px;
+  padding-left: 4px;
+  padding-right: 3px;
+  border-radius: 1px;
+  margin-right: 10rem;
+  width: 86px;
+  height: 36px;
+    border: 1px solid #aaa;
+    color: #fff;
+    font-size: 16px;
+}
+.text{
+    text-align: center;
+    color: #fff;
+    margin-top: 6rem;
+    
+}
+.main-text{
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 60px;
+    height: 114px;
+}
+.sub{
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+.par{
+    color: #fff;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 400;
+   font-size: 1.2rem;
+}
+.email{
+    padding-left: 7px;
+    margin-left: 18rem;
+    width: 495px;
+    height: 59px;
+    font-size: 17px;
+    padding-top: 10px;
+
+}
+.getstarted{
+    margin-left: -1rem;
+    width: 230px;
+    height: 77px;
+    font-size: 31px;
+    background-color: #e50914;
+    color: #fff;   
+}
+.email-container{
+    margin-left: 7rem;
+}
+.spc1{
+    width: 100%;
+    height: 12px;
+   background-color: rgb(58, 55, 55);
+   margin-top: -2px;
+}
+.card1{
+    width: 100%;
+    height: 490px;
+    background-color: black;
+    margin-top: -4px;
+}
+.tv-img{
+    padding-right: 186px;
+    padding-top: 20px;
+    float: right;
+    height: 24rem;
+    position: relative;
+    z-index: 2;
+}
+.main-title1{
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #fff;
+    font-size: 53px;
+    height: 34px;
+    -webkit-font-smoothing: antialiased;
+    
+}
+.card1-text{
+    padding-top: 95px;
+    float: left;
+    padding-left: 15rem;
+    position: flex;
+}
+.sub-title1{
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+}
+.spc2{
+    width: 100%;
+    height: 12px;
+   background-color: rgb(58, 55, 55);
+   margin-top: -2px;
+}
+.card2{
+    width: 100%;
+    height: 490px;
+    background-color: black;
+    margin-top: -44px;
+}
+.mobile-img{
+    padding-top: 30px;
+    float: left;
+    height: 23rem;
+    padding-left: 140px;
+}
+.video1{
+    float: right;
+    margin-right: -440px;
+    width: 372px;
+    padding-top: 101px;
+    display: inline-block;
+    vertical-align: baseline;
+}
+.download{
+    float: left;
+    -webkit-box-align: center;
+    transform: translateX(-50%);
+    margin: 0 auto;
+    background: #000;
+    align-items: center;
+    width: 20%;
+    min-width: -9em;
+    border: 2px solid rgba(255,255,255,.25);
+    box-shadow: 0 0 2em 0 #000;
+    border-radius: .75em;
+    margin-left: -15rem;
+    padding-left: -11px;
+    margin-top: 269px;
+    height: 98px;
+}
+.boxshot{
+    float: left;
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 5em;
+    max-width: 100%;
+    padding-left: 11px;
+    padding-top: 9px;
+    border: 0;
+}
+.downloading{
+    color: #fff;
+    font-weight: 600;
+    font-size: 17px;
+    font-family: sans-serif;
+    padding-top: 23px;
+    margin-left: 5rem;
+}
+.card2-text{
+   color: #fff;
+
+}
+.main-title2{
+    padding-top: 140px;
+    font-size: 48px;
+    line-height: 1.1;
+    margin-bottom: .5rem;
+height: 104px;
+font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+padding-top: 133px;
+}
+.sub-title2{
+    font-size: 1.625rem;
+    font-weight: 400;
+    
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.spc3{
+    width: 100%;
+    height: 12px;
+   background-color: rgb(58, 55, 55);
+   margin-top: -2px;
+}
+.card3{
+    width: 100%;
+    height: 490px;
+    background-color: black;
+    margin-top: -45px;
+}
+.img3{
+    width: 33rem;
+    float: right;
+    position: relative;
+    z-index: 2;
+    padding-top: 52px;
+    padding-right: 178px;
+}
+.card3-text{
+    color: #fff;
+    margin-left: 15rem;
+
+}
+.main-title3{
+    padding-top: 170px;
+    font-size: 48px;
+    line-height: 1.1;
+    margin-bottom: .5rem;
+height: 47px;
+font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+padding-top: 175px;
+
+}
+.sub-title3{
+font-size: 1.625rem;
+font-weight: 400;
+
+font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+
+}
+.video2{    
+    float: right;
+    margin-right: -423px;
+    width: 323px;
+    padding-top: 87px;
+    display: inline-block;
+    vertical-align: baseline;
+  
+}
+.spc4{
+    width: 100%;
+    height: 12px;
+   background-color: rgb(58, 55, 55);
+   margin-top: -2px;
+}
+.card4{
+    width: 100%;
+    height: 524px;
+    background-color: black;
+    margin-top: -4px;
+}
+.card4-text{
+    color: #fff; 
+    float: right;
+    padding-right: 262px;
+}
+.main-title4{
+    padding-top: 140px; 
+    font-size: 48px;
+    line-height: 1.1;
+    margin-bottom: .5rem;
+    height: 104px;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    padding-top: 107px;
+}
+.sub-title4{
+    font-size: 1.625rem;
+    font-weight: 400;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.img4{
+    height: auto;
+    border: 0;
+    width: 500px;
+    padding-left: 13rem;
+    padding-top: 68px;
+}
+.spc5{
+    width: 100%;
+    height: 12px;
+   background-color: rgb(58, 55, 55);
+   margin-top: -2px;
+}
+.card5{
+    width: 100%;
+    height: 59rem;
+    background-color: black;
+    margin-top: -4px;
+}
+.main-title5{
+    float: right;
+    padding-top: 30px;
+    padding-right: 28rem;
+    color: #fff;
+    font-size: 48px;
+    line-height: 1.1;
+   
+    height: 104px;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+   
+}
+.question-btn{
+    background-color:#303030 ;
+    width: 800px;
+    height: 77px;
+    margin-top: 11rem;
+    position: absolute;
+    margin-left: 21rem;
+    color: #fff;
+    font-size: 180%;
+    padding-right: 34rem;
+}
+.plus-btn{
+    margin-top: -48px;
+    padding-left: 46rem;
+    position: absolute;
+    font-family: math;
+    font-weight: 100;
+    position: absolute;
+    font-size: 55px;
+}
+.question-btn1{
+    background-color:#303030 ;
+    width: 800px;
+    height: 77px;
+    margin-top: 260px;
+    position: absolute;
+    margin-left: 21rem;
+    color: #fff;
+    font-size: 180%;
+    padding-right:  34rem;
+    
+}
+.question-btn2{
+    background-color:#303030 ;
+    width: 800px;
+    height: 77px;
+    margin-top: 343px;
+    position: absolute;
+    margin-left: 21rem;
+    color: #fff;
+    font-size: 180%;
+    padding-right: 37rem;
+}
+.question-btn3{
+    background-color:#303030 ;
+    width: 800px;
+    height: 77px;
+    margin-top: 425px;
+    position: absolute;
+    margin-left: 21rem;
+    color: #fff;
+    font-size: 180%;
+    padding-right: 524px;
+}
+.question-btn4{
+    background-color:#303030 ;
+    width: 800px;
+    height: 77px;
+    margin-top: 508px;
+    position: absolute;
+    margin-left: 21rem;
+    color: #fff;
+    font-size: 180%;
+    padding-right: 482px;
+}
+.question-btn5{
+    background-color:#303030 ;
+    width: 800px;
+    height: 77px;
+    margin-top: 592px;
+    position: absolute;
+    margin-left: 21rem;
+    color: #fff;
+    font-size: 180%;
+    padding-right: 524px;
+}
+.a{
+    font-family: inherit;
+    margin-top: -35px;
+    color: #fff;
+    font-size: 101%;
+    padding-left: 233px;
+    position: absolute;
+    font-weight: 200;
+}
+.b{
+    font-family: inherit;
+    margin-top: -34px;
+    color: #fff;
+    font-size: 101%;
+    padding-left: 184px;
+    position: absolute;
+    font-weight: 200;
+}
+.c{
+    font-family: inherit;
+    margin-top: -34px;
+    color: #fff;
+    font-size: 101%;
+    padding-left:293px;
+    position: absolute;
+    font-weight: 200;
+}
+.par2{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 1.2rem;
+    margin-top: 33rem;
+    margin-right: 29rem;
+    font-size: 20px;
+    float: right;
+}
+.email2{
+    color: #8c8c8c;
+    margin-left: 18rem;
+    min-width: 500px;
+    height: 55px;
+    font-size: 17px;
+    padding-top: 11px;
+    padding-left: 12px;
+ }
+
+ .getstarted2{
+     
+     margin-left: -1rem;
+     min-width: 240px;
+     height: 74px;
+     font-size: 31px;
+     background-color: #e50914;
+     color: #fff;   
+     
+ }
+ .email-container2{
+     margin-left: 5rem;
+ }
+ .footer{
+    width: 100%;
+    height: 397px;
+    background-color: black;
+    margin-top: -4px;
+ }
+ .footer-title{
+    margin-top: 75px;
+    margin-left: 18rem;
+    float: left;
+    font-size: 1em;
+    color: #757575;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+ }
+ .list1{
+    font-size: 13px;
+    color: #757575;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    float: left;
+    margin-top: 131px;
+    margin-left: -247px;
+ }
+ .list2{
+    font-size: 13px;
+    color: #757575;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    float: left;
+    margin-top: 131px;
+    margin-left: -15px;
+ }
+ .list3{
+    font-size: 13px;
+    color: #757575;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    float: left;
+    margin-top: 131px;
+    margin-left: 106px;
+ }
+ .list4{
+    font-size: 13px;
+    color: #757575;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    float: left;
+    margin-top: 131px;
+    margin-left: 102px;
+ }
+ .language2{
+    float: left;
+    border-color: rgb(235, 226, 226);
+    right: 20px;
+    height: 52px;
+    border-radius: 1px;
+    margin-top: 17rem;
+    margin-left: -757px;
+    background-color: #000;
+    background-image: none;
+    border: 1px solid #333;
+    color: #999;
+    font-size: 17px;
+    width: 109px;
+    padding-left: 23px;
+}
+.country{
+    margin-top: 349px;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    color: #757575;
+    float: left;
+    margin-left: -757px;
+}
